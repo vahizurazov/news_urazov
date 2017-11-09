@@ -1,0 +1,81 @@
+
+@import "global/mixins.scss";
+@import "global/reset.scss";
+@import "global/var.scss";
+
+@import "partials/header.scss";
+@import "partials/main.scss";
+@import "partials/footer.scss";
+
+// body{
+// 	display: block;
+// 	overflow: hidden;
+// 	width: 100%;
+// }
+
+
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+#wrapper {
+	display:block;
+	overflow: visible;
+	position:relative;
+	width:100%;
+
+	&::before{
+		content: '';
+		background: url(../images/world_map.png) no-repeat;
+		position: absolute;
+		z-index: -15;
+		height: 100%;
+		width: 100%;
+		background-position: 50% 0;
+		opacity: 0.1;
+	}
+	&::after{
+		content:'';
+		background: url(../images/world_map_wrap.png) no-repeat;
+		position: absolute;
+		top: 0;
+		z-index: -10;
+		height: 100%;
+		width: 100%;
+		background-position: 50% 0;
+		opacity: 0.3;
+		background-size: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

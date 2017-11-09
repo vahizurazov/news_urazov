@@ -1,0 +1,123 @@
+#main{
+	.layout{
+		width: 979px;
+		margin: 0 auto;
+	}
+	width: 100%;
+}
+#content{
+	width: 734px;
+	float: right;
+	padding-left: 35px;
+	box-sizing: border-box;
+	// background: #fefefe;
+	border-left:1px solid #ebebec;
+	.main_news{
+		border-bottom:1px solid #ebebec;
+		h2{
+			float: left;
+			width: 61%;
+			font: 24px Arial, helvetica, sans-serif;
+			color: #3d3d3d;
+			letter-spacing: -0.6px;
+
+		}
+		.square_data{
+			float: right;
+			width: 79px;
+			height: 79px;
+			background: url(../images/pixel_1.png) repeat;
+			.number{
+				padding: 17px 0 0px 31px;
+				font:bold 17px Arial, helvetica, sans-serif;
+				color: #939799;
+			}
+			li{
+				font: 10px Arial, helvetica, sans-serif;
+				color:#939799;
+				padding: 0px 0 0px 31px;
+			}
+		}
+	}
+	.quote_1{
+		font:italic 15px/21px Arial, sans-serif;
+		color: #909293;
+		padding: 21px 0 30px 0;
+		border-bottom:1px solid #ebebec;
+	}
+	.content_news{
+		border-bottom: 1px solid #ebebec;
+		padding-bottom: 38px;
+		h3{
+			font: 15px/21px Arial, sans-serif;
+			color: #ae3b44;
+			padding: 22px 0 18px 0;
+		}
+		p{
+			font: 12px/19px Arial, sans-serif;
+			color: #3c3c3c;
+		}
+		figure{
+			padding-bottom: 31px;
+			img{
+				display: block;
+				padding: 40px 125px 6px 86px;
+			}
+			figcaption{
+				font: 11px/17px Arial, sans-serif;
+				color: #aeaeae;
+				text-align: center;
+				margin-right: 41px;
+			}
+		}
+		.img_plus_text{
+			p{
+				img{
+					padding: 35px 34px 26px 0;
+					display: block;
+					float: left;
+				}
+			}
+			.padding_p{
+				padding-top: 24px;
+			}
+		}
+	}
+	.content_news2{
+		border-bottom: 1px solid #ebebec;
+		padding-bottom: 8px;
+		h3{
+			font: 15px/21px Arial, sans-serif;
+			color: #ae3b44;
+			padding: 22px 0 18px 0;
+		}
+		p{
+			font: 12px/19px Arial, sans-serif;
+			color: #3c3c3c;
+			padding-bottom: 21px;
+		}
+	}
+	.pagination{
+		.page_left{
+			float: left;
+			p{
+				img{
+
+				}
+			}
+		}
+		.page_right{
+			float: right;
+			p{
+				img{
+
+				}
+			}
+		}
+	}
+}
+
+#sidebar{
+	width: 245px;
+	float: left;
+}
